@@ -1,12 +1,14 @@
-let customer = ["Hemsara", "Kumara", "Pasidu"];
+let customer = [];
 console.log(customer);
 
-customer = "Piyadasa";
+customer.push(1);
+customer.push("Nimal");
 console.log(customer);
 
-const Cust = ["Hemsara", "Kumara", "Pasidu"];
-console.log(Cust);
+{
+customer.reverse();
+console.log(customer);
+}
 
-Cust.push("Pyadasa");
-console.log(Cust);
-console.log(Cust.length);
+//customer.reverse();
+console.log(customer);
