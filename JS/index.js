@@ -1,14 +1,24 @@
-let customer = [];
-console.log(customer);
+const productList = [
+    {name:"bun", instock:true, price:100},
+    {name:"milk", instock:false, price:200},
+    {name:"agg", instock:true, price:300},
+    {name:"bread", instock:false, price:400},
+    {name:"butter", instock:true, price:500},
+];
 
-customer.push(1);
-customer.push("Nimal");
-console.log(customer);
+console.log(productList);
 
-{
-customer.reverse();
-console.log(customer);
-}
+// let inStockProducts = productList.filter(
+//     function(product){
+//         return product.instock == true;
+//         //return producFilter(product);
+//     }  
+// );
 
-//customer.reverse();
-console.log(customer);
+let inStockProducts = productList.filter(product => product.instock == true);
+
+// function producFilter(product){
+//     return product.instock == true;
+// }
+
+console.log(inStockProducts);
