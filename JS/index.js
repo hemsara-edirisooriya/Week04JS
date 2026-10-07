@@ -1,23 +1,12 @@
-// console.log("Hemsara");
+let customer = ["Hemsara", "Kumara", "Pasidu"];
+console.log(customer);
 
-// {
-//     var name = "Hemsara";
-//     let age = 20;
+customer = "Piyadasa";
+console.log(customer);
 
-//     console.log(age);
-// }
+const Cust = ["Hemsara", "Kumara", "Pasidu"];
+console.log(Cust);
 
-                                                  
-
-// console.log(name);
-// console.log(age);
-
-//const
-
-{
-const number = 1;
-console.log(number);
-
-number = 1;
-console.log(number);
-}
+Cust.push("Pyadasa");
+console.log(Cust);
+console.log(Cust.length);
