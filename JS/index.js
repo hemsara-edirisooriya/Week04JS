@@ -22,3 +22,22 @@ console.log(getTotal(10,10));
 (num1, num2) => {
     return num1 + num2;
 }
+
+const leterList = ["G","H","I","A","C","R"];
+console.log(leterList);
+
+const sortArray = leterList.sort();
+console.log(sortArray);
+
+
+const studentList = [
+    {name:"smantha", age:20, gender:"male"},
+    {name:"cmantha", age:20, gender:"male"},
+    {name:"tmantha", age:20, gender:"male"},
+    {name:"bmantha", age:20, gender:"male"},
+    {name:"kmantha", age:20, gender:"male"},
+]
+
+let tempFind = studentList.find(x => x.name == "smantha");
+console.log(tempFind);
+
