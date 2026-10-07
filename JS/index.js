@@ -41,3 +41,9 @@ const studentList = [
 let tempFind = studentList.find(x => x.name == "smantha");
 console.log(tempFind);
 
+
+fetch("/customer.json").then(res => res.json()).then(data =>{
+    console.log(data);
+
+    
+});
