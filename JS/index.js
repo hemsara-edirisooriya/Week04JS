@@ -1,24 +1,24 @@
-const productList = [
-    {name:"bun", instock:true, price:100},
-    {name:"milk", instock:false, price:200},
-    {name:"agg", instock:true, price:300},
-    {name:"bread", instock:false, price:400},
-    {name:"butter", instock:true, price:500},
-];
+// - 1 Method
+function addNumber(num1,num2){
+    return num1 + num2;
+}
 
-console.log(productList);
+console.log(addNumber(10,10));
 
-// let inStockProducts = productList.filter(
-//     function(product){
-//         return product.instock == true;
-//         //return producFilter(product);
-//     }  
-// );
+// - 2 Method
+let getSum = function(num1, num2){
+    return num1 + num2;
+}
+console.log(getSum(10,10));
 
-let inStockProducts = productList.filter(product => product.instock == true);
+// - 3 Method
+let getTotal = (num1, num2) =>{
+    return num1 + num2;
+}
 
-// function producFilter(product){
-//     return product.instock == true;
-// }
+console.log(getTotal(10,10));
 
-console.log(inStockProducts);
+// - 4 Method
+(num1, num2) => {
+    return num1 + num2;
+}
